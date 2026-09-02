@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us — BytePulse Hub</title>
+  <meta name="description" content="Get in touch with the BytePulse Hub editorial team for inquiries, feedback, or corrections.">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header>
+    <div class="nav-container">
+      <div class="logo"><a href="index.html" style="text-decoration:none;color:inherit;">BytePulse<span>Hub</span></a></div>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="privacy-policy.html">Privacy</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <div class="container">
+    <div class="article-container">
+      <div class="article-header">
+        <h1>Contact the Editorial Team</h1>
+        <div class="meta-info">We typically respond within 24–48 business hours</div>
+      </div>
+
+      <div class="article-content">
+        <p>Have a question, feedback on an article, or a suggestion for a topic you would like us to cover? We are always glad to hear from our readers.</p>
+
+        <div class="callout">
+          <strong>Direct Email:</strong> <a href="mailto:contact@bytepulsehub.com">contact@bytepulsehub.com</a><br>
+          <em>Note: Replace this with your personal or project email address.</em>
+        </div>
+
+        <h2>Send Us a Message</h2>
+        <form style="margin-top: 1.5rem; display: flex; flex-direction: column; gap: 1rem;" onsubmit="event.preventDefault(); alert('Thank you! Your message has been recorded.');">
+          <div>
+            <label style="display:block; font-weight:600; font-size:0.9rem; margin-bottom:0.35rem;" for="name">Your Name</label>
+            <input type="text" id="name" required style="width:100%; padding:0.75rem; border:1px solid var(--border); border-radius:6px; font-family:inherit;">
+          </div>
+          <div>
+            <label style="display:block; font-weight:600; font-size:0.9rem; margin-bottom:0.35rem;" for="email">Email Address</label>
+            <input type="email" id="email" required style="width:100%; padding:0.75rem; border:1px solid var(--border); border-radius:6px; font-family:inherit;">
+          </div>
+          <div>
+            <label style="display:block; font-weight:600; font-size:0.9rem; margin-bottom:0.35rem;" for="subject">Subject</label>
+            <input type="text" id="subject" required style="width:100%; padding:0.75rem; border:1px solid var(--border); border-radius:6px; font-family:inherit;">
+          </div>
+          <div>
+            <label style="display:block; font-weight:600; font-size:0.9rem; margin-bottom:0.35rem;" for="message">Message</label>
+            <textarea id="message" rows="5" required style="width:100%; padding:0.75rem; border:1px solid var(--border); border-radius:6px; font-family:inherit;"></textarea>
+          </div>
+          <button type="submit" style="align-self:flex-start; background:var(--primary); color:#fff; border:none; padding:0.75rem 1.5rem; border-radius:6px; font-weight:600; cursor:pointer;">Send Message</button>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <div class="footer-links">
+      <a href="index.html">Home</a>
+      <a href="about.html">About Us</a>
+      <a href="contact.html">Contact</a>
+      <a href="privacy-policy.html">Privacy Policy</a>
+      <a href="terms.html">Terms of Service</a>
+    </div>
+    <p>&copy; 2026 BytePulse Hub. All rights reserved. Practical guides for modern productivity.</p>
+  </footer>
+</body>
+</html>
